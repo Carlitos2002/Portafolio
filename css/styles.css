@@ -226,30 +226,6 @@ p {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media screen and (max-width: 1220px) {
-  .main {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .main img {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-
-  .about {
-    grid-template-columns: 1fr;
-    background-position: center;
-    text-align: center;
-  }
-
-  .about img {
-    width: 200px;
-    padding: 1rem;
-  }
-}
-
 @media screen and (max-width: 700px) {
   .menu {
     display: none;
@@ -285,3 +261,29 @@ p {
     margin: 1em 0;
   }
 }
+
+@media screen and (max-width: 1220px) {
+  .main {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .main img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    background-position: center;
+    text-align: center;
+  }
+
+  .about img {
+    width: 200px;
+    padding: 1rem;
+  }
+}
+
+
